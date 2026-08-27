@@ -1,8 +1,1 @@
-{
-  "name":"qr-fotograf-sitesi-v3",
-  "version":"1.0.0",
-  "private":true,
-  "type":"module",
-  "scripts":{"start":"node server.js"},
-  "dependencies":{"express":"^5.1.0","multer":"^2.0.2","qrcode":"^1.5.4"}
-}
+{"name":"qr-fotograf-sitesi-v3-1","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.js"},"dependencies":{"express":"^5.1.0","multer":"^2.0.2","qrcode":"^1.5.4"}}
