@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: qr-fotograf-sitesi
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: SITE_URL
+        sync: false
+      - key: UPLOAD_DIR
+        value: /var/data/uploads
